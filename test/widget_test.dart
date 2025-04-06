@@ -14,6 +14,7 @@ void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     debugPrint("Building the app...");
+    // This widget is the root of your application.
     await tester.pumpWidget(const MyApp());
 
     // Verify that our counter starts at 0.
